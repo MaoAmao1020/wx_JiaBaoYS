@@ -1,0 +1,115 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "课程列表",
+				"navigationBarTextStyle": "white"
+			}
+		},{
+            "path" : "pages/orderpay/orderpay",
+            "style" : {
+				"navigationBarTitleText": "订单结算",
+				"navigationBarTextStyle": "white"
+			}
+        },{
+			"path": "pages/myclass/myclass",
+			"style": {
+				"navigationBarTitleText": "我的课程",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/myorder/myorder",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/classlog/classlog",
+			"style": {
+				"navigationBarTitleText": "上课记录",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/sharelog/sharelog",
+			"style": {
+				"navigationBarTitleText": "分享记录",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		
+		{
+			"path": "pages/classpersonnel/classpersonnel",
+			"style": {
+				"navigationBarTitleText": "班级人员",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/class/class",
+			"style": {
+				"navigationBarTitleText": "班级管理",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "课程详情",
+				"navigationBarTextStyle": "white"
+			}
+		},
+        {
+            "path" : "pages/class_fl/class_fl",
+            "style": {
+            	"navigationBarTitleText": "班级分类",
+            	"navigationBarTextStyle": "white"
+            }
+        }
+    ],
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#007AC0",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/tab1.png",
+				"selectedIconPath": "static/image/tab1-c.png",
+				"text": "课程列表"
+			}, {
+				"pagePath": "pages/class_fl/class_fl",
+				"iconPath": "static/image/tab2.png",
+				"selectedIconPath": "static/image/tab2-c.png",
+				"text": "班级分类"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/image/tab3.png",
+				"selectedIconPath": "static/image/tab3-c.png",
+				"text": "个人中心"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#007AC0",
+		"navigationBarTextStyle": "white"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+
+}

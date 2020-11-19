@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/orderpay/orderpay",
+    "pages/myclass/myclass",
+    "pages/myorder/myorder",
+    "pages/classlog/classlog",
+    "pages/my/my",
+    "pages/sharelog/sharelog",
+    "pages/classpersonnel/classpersonnel",
+    "pages/class/class",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#007AC0",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#007AC0",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/tab1.png",
+        "selectedIconPath": "static/image/tab1-c.png",
+        "text": "课程列表"
+      },
+      {
+        "pagePath": "pages/class/class",
+        "iconPath": "static/image/tab2.png",
+        "selectedIconPath": "static/image/tab2-c.png",
+        "text": "班级信息"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/image/tab3.png",
+        "selectedIconPath": "static/image/tab3-c.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "推荐最近取货点"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
